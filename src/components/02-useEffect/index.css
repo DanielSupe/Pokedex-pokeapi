@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/503/189/157/pokemon-video-games-pixel-art-pixels-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+    border: 3px black solid;
+    margin: 20px;
+    background-color: rgb(23, 160, 67);
+    border-radius: 10px;
+}
+.divtipo{
+    margin: 10px;
+}
+
+.img{
+    width: 150px;
+}
+.contenedor{
+    display: flex;
+    
+    
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(203, 203, 3);
+    cursor: pointer;
+    border: 2px black solid;
+
+}
+
+button:hover{
+    background-color: aliceblue;
+    transition: .8s;
+}
+
+input{
+    border: none;
+    border-radius: 20px;
+}
+
+input:focus{
+   border: 2px green solid;
+   outline: 0;
+}
+
+input:active{
+    border: none;
+}
+
+.stats{
+    border: 2px black solid;
+    margin: 15px;
+    margin-left: auto;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+}
+.stats p{
+    display: flex;
+   font-size: 1rem;
+   border: 1px black solid;
+}
+
+.fire{
+    color: red;
+}
+
+.grass{
+    color: rgb(5, 107, 5);
+}
+
+.water{
+    color: aqua;
+}
+.poison{
+    color: blueviolet;
+}
+.flying{
+    color: rgb(161, 199, 199);
+}
+
+.fighting{
+    color: brown;
+}
+
+.electric{
+    color: yellow;
+}
+
+.ground{
+    color: rgb(105, 81, 48);
+}
+
+.rock{
+    color: rgb(68, 45, 45);
+}
+
+.bug{
+    color: rgb(58, 176, 58);
+}
+
+.psychic{
+    color: palevioletred;
+}
+
+.ice{
+    color: rgb(3, 121, 121);
+}
+
+.ghost{
+    color: rgb(77, 5, 144);
+}
+
+.steel{
+    color: rgb(192, 192, 192);
+}
+
+.dragon{
+    color: blue;
+}
+
+.dark{
+    color: black;
+}
+
+.fairy{
+    color: rgb(189, 15, 73);
+}
+.normal{
+    color: rgb(131, 132, 134);
+}

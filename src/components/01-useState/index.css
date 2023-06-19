@@ -1,0 +1,21 @@
+body{
+    padding-top: 70px;
+}
+
+button{
+    margin: 10px;
+}
+
+.red{
+    background-color: red;
+    height: 200px;
+    width: 100%;
+   
+}
+
+.green{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+   
+}
